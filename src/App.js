@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import NavBar from "./components/Navbar";
-import Profile from "./components/Profile"; // данная ссылка импортирует заданные параметры классов
+import Profile from "./components/Profile";
+import Repos from "./components/Repos"; // данная ссылка импортирует заданные параметры классов
 
 /* внутри нашей константы мы создаем разметку страницы, где
 * header отвечает за шапку страницы
@@ -20,7 +21,9 @@ const App = () => {
            <Header/>
            <NavBar/>
            <Profile/>
+            <Repos/>
         </div>
+
     )
 }
 
