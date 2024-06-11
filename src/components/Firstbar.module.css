@@ -1,0 +1,5 @@
+.firstbar {
+    grid-area: b;
+    background: #8851F7;
+    width: 50px;
+}
