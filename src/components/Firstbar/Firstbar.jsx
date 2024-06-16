@@ -4,7 +4,11 @@ import s from './Firstbar.module.css';
 const Firstbar = () => {
     return(
         <nav className={s.firstbar}>
-            <div></div>
+            <div>
+                <p>Привет</p>
+                <p>Привет</p>
+                <p>Привет</p>
+            </div>
         </nav>
     )
 }
