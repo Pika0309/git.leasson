@@ -5,6 +5,10 @@
     resize: none;
     border-radius: 10px;
 }
+.addPost button:active{
+    color: white;
+    background-color: darkgray;
+}
 .addPost button{
     margin-left: 330px;
     width: 100px;
@@ -12,4 +16,5 @@
     background: #CB3BE1;
     color: white;
     border-radius: 10px;
+    border: none;
 }
