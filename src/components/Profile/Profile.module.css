@@ -1,0 +1,15 @@
+.content {
+    grid-area: c;
+    background: #7B68EE;
+}
+
+.obloshka {
+    width: 800px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
+.ava{
+    width: 150px;
+}
+

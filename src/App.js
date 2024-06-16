@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
-import NavBar from "./components/Navbar";
-import Profile from "./components/Profile";
-import Firstbar from "./components/Firstbar";
+import Header from "./components/Header/Header";
+import NavBar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import Firstbar from "./components/Firstbar/Firstbar";
 
 /* внутри нашей константы мы создаем разметку страницы, где
 * header отвечает за шапку страницы

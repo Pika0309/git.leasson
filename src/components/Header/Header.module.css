@@ -1,6 +1,6 @@
 .header {
     grid-area: h;
-    background: #DA70D6;
+    background: #CB3BE1;
 }
 .header img{ /* если в нашем header лежит картинка, то сделай ей размер такой
                 (данные параметры будут присваиваться всем картинкам лежащих в header: */
