@@ -5,10 +5,16 @@
     resize: none;
     border-radius: 10px;
 }
-.addPost button:active{
+
+.addPost button:hover{
     color: white;
     background-color: darkgray;
 }
+.addPost button:active{
+    color: white;
+    background-color: gray;
+}
+
 .addPost button{
     margin-left: 330px;
     width: 100px;
@@ -17,6 +23,7 @@
     color: white;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .addPost textarea:active{
