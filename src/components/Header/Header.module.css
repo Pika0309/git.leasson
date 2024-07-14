@@ -5,4 +5,11 @@
 .header img{ /* если в нашем header лежит картинка, то сделай ей размер такой
                 (данные параметры будут присваиваться всем картинкам лежащих в header: */
     width: 50px;
+    margin-left: 25px;
 }
+
+.textLog{
+    font-size: 30px;
+    color: white;
+}
+

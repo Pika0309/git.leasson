@@ -1,11 +1,23 @@
 .nav {
     grid-area: n;
     background: #8A6CB5;
+
 }
 
 
 .item {
-    color: white;
     margin-bottom: 5px;
+    margin-left: 25px;
+    height: 25px;
+    width: 100px;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.item :hover{
+    background: #FF69FF;
+    border-radius: 8px;
 }

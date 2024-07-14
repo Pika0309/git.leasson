@@ -6,15 +6,6 @@
     border-radius: 10px;
 }
 
-.addPost button:hover{
-    color: white;
-    background-color: darkgray;
-}
-.addPost button:active{
-    color: white;
-    background-color: gray;
-}
-
 .addPost button{
     margin-left: 330px;
     width: 100px;
@@ -26,6 +17,14 @@
     cursor: pointer;
 }
 
-.addPost textarea:active{
+@media (hover:hover) {
+    
+.addPost button:hover{
+    color: white;
     background-color: darkgray;
+}
+.addPost button:active{
+    color: white;
+    background-color: gray;
+}
 }

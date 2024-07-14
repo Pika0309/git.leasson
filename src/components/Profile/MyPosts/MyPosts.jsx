@@ -12,13 +12,13 @@ const MyPosts = () => {
                         <button>Add posts</button>
                     </div>
                 </div>
-                <Post message='Привет, это мой первый props!'
+                    <Post message='Привет, это мой первый props!'
                       span='23'/>
-                <Post message='Как у тебя дела?'
+                    <Post message='Как у тебя дела?'
                       span='43'/>
-                <Post message='А здесь ещё один props'
+                    <Post message='А здесь ещё один props'
                       span='127'/>
-                <Post message='Попробуем все таки создать ещё один.'
+                    <Post message='Попробуем все таки создать ещё один.'
                       span='22'/>
             </div>
     )
