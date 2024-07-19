@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <header className={s.header}>
-            <NavLink to='/logProfile'>
+            <NavLink to='/logProfile' className={s.item}>
                 <img src='https://cdn-icons-png.flaticon.com/512/187/187902.png'/>
                 <label className={s.textLog}>NeverChat's</label>
             </NavLink>

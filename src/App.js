@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import NavBar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Firstbar from "./components/Firstbar/Firstbar";
-import Dialogs from './components/Dialogs/Dialog';
+import Dialogs from './components/Dialogs/Chats';
 import NewNews from './components/News/NewNews'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Импортируем  из нашего установленного модуля роутер и роуьер браузера.
 import Musics from './components/Musics/Music';

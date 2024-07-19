@@ -1,0 +1,21 @@
+.messagesBackground{
+    padding: 30px;
+    padding-left: 50px;
+    background: #505050;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border-color: #7F7F7F;
+    border-style: solid;
+}
+
+.messageItem{
+    margin-bottom: 20px;
+    background: #7B68EE;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 10px;
+    color: white;
+}

@@ -1,0 +1,26 @@
+.dialogItems{
+    padding: 20px;
+    background: #505050;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.item{
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #7F7F7F;
+    border-style: solid;
+    margin-bottom: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog :hover{
+    background: #C1C1C1;
+}

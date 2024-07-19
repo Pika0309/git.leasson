@@ -1,0 +1,10 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 280px 520px;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+

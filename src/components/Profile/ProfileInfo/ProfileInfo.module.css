@@ -1,0 +1,46 @@
+.imagge{
+    display: grid;
+    grid-template-areas: "o a"
+                            "bA";
+    grid-template-rows: 0 0 1;
+    grid-template-columns: 50px 100px 0;
+    margin-right: 150px;
+}
+
+.obloshka {
+    width: 800px;
+    height: 230px;
+    margin: 10px 0px 0px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: #7F7F7F;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    grid-area: o;
+}
+
+.ava{
+    width: 120px;
+    border-radius: 100px;
+    border-color: #5D5D5D;
+    border-style: solid;
+    margin-top: 140px;
+    margin-left: 40px;
+    z-index: 1;
+    background: #7F7F7F;
+    grid-area: a;
+}
+
+.backAva{
+    background: #5D5D5D;
+    width: 800px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 225px;
+    grid-area: bA;
+    border-color: #7F7F7F;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}

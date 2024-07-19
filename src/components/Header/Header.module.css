@@ -1,15 +1,22 @@
 .header {
     grid-area: h;
-    background: #CB3BE1;
+    background: #5F6A6A;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
 }
 .header img{ /* если в нашем header лежит картинка, то сделай ей размер такой
                 (данные параметры будут присваиваться всем картинкам лежащих в header: */
     width: 50px;
-    margin-left: 25px;
+    margin-left: 250px;
 }
 
 .textLog{
     font-size: 30px;
     color: white;
+    cursor: pointer;
 }
 
+.item{
+    text-decoration: none;
+}

@@ -20,21 +20,33 @@
 
   grid-template-rows: 60px 1fr; /* задает кол-во и ширину рядов(строк), 60px (высота строки
                                   1fr (одна фракция), т.е. получается 2 строки */
-  grid-template-columns: 140px 10fr 50px; /*сколько будет столбцов, одна колонка занимает 2 fr (фракции)
+  grid-template-columns: 3fr 10fr 50px; /*сколько будет столбцов, одна колонка занимает 2 fr (фракции)
                                      другая 10 фракций, фракция - т.е. все пространство
                                      для размещение элементов будет разбито на доли и фракции*/
 
   font-family: "Cambria Math";
   text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  color: white;
 
-  min-height: 100%;
+  height: 100vw;
   position: absolute;
-  min-width: 100%;
+  width: 100vw;
+  background: #393939;
+}
 
+.app-wrapper button{
+    font-family: "Cambria Math";
+    text-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: #7B68EE;
+  background-color: #393939;
+  
 }
 
+@media (max-width: 1350px){
+  .app-wrapper{
+      width: 1350px;
+  }
+}

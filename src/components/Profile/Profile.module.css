@@ -1,38 +1,6 @@
-.imagge{
-    display: grid;
-    grid-template-areas: ".obloshka .ava .backAva";
-    grid-template-rows: 0 0 1;
-    grid-template-columns: 0 0 0;
-    gap: 5px;
-    width: auto;
+.contentProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.obloshka {
-    width: 800px;
-    height: 230px;
-    margin: 10px 10px 10px 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.ava{
-    width: 120px;
-    border-radius: 100px;
-    border-color: gray;
-    border-style: solid;
-    margin-top: 140px;
-    margin-left: 40px;
-    z-index: 1;
-    background: #8E498E;
-}
-
-.backAva{
-    background: #8E498E;
-    width: 800px;
-    height: 100px;
-    border-radius: 20px;
-    margin-top: 225px;
-}
-
-
 

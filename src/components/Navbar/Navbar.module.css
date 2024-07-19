@@ -1,23 +1,39 @@
 .nav {
     grid-area: n;
-    background: #8A6CB5;
-
+    background: #444444;
+    margin-left: 230px;
+    border-right-color: #7F7F7F;
+    border-right-style: solid;
+    border-left-color: #7F7F7F;
+    border-left-style: solid;
+    width: 200px;
+    position: fixed;
+    height: 100vw;
 }
 
 
-.item {
-    margin-bottom: 5px;
-    margin-left: 25px;
-    height: 25px;
-    width: 100px;
-}
-
-a{
+.urlNav{
     color: white;
     text-decoration: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
 }
 
 .item :hover{
-    background: #FF69FF;
-    border-radius: 8px;
+    background: #7B68EE;
+    border-radius: 4px;
+}
+
+.imgItem{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    border-radius: 100px;
+    border-color: #7B68EE;
+    border-style: ridge;
 }
