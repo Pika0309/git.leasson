@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/git.leasson/static/css/main.77657c5a.css",
+    "main.js": "/git.leasson/static/js/main.d91fc21a.js",
+    "static/js/453.c1239e67.chunk.js": "/git.leasson/static/js/453.c1239e67.chunk.js",
+    "index.html": "/git.leasson/index.html",
+    "main.77657c5a.css.map": "/git.leasson/static/css/main.77657c5a.css.map",
+    "main.d91fc21a.js.map": "/git.leasson/static/js/main.d91fc21a.js.map",
+    "453.c1239e67.chunk.js.map": "/git.leasson/static/js/453.c1239e67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77657c5a.css",
+    "static/js/main.d91fc21a.js"
+  ]
+}
